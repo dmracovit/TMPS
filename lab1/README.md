@@ -1,15 +1,15 @@
-# 🍔 Restaurant Order System
+#  Restaurant Order System
 
 A Python-based restaurant ordering system that demonstrates **SOLID design principles** through a clean, extensible architecture.
 
-## ✨ Features
+##  Features
 
 - **Flexible Discount System**: Support for percentage discounts, fixed amount discounts, and time-based happy hour deals
 - **Multiple Payment Methods**: Cash, credit card, and mobile payment options
 - **Notification System**: Console and email notifications for order updates
 - **Extensible Design**: Easy to add new discount types, payment methods, or notification channels without modifying existing code
 
-## 🎯 SOLID Principles Demonstrated
+##  SOLID Principles Demonstrated
 
 ### **S - Single Responsibility Principle**
 Each class has one clear purpose:
@@ -31,7 +31,7 @@ High-level modules depend on abstractions, not concrete implementations:
 - Makes testing and maintenance a breeze!
 
 
-## 📖 Usage Examples
+##  Usage Examples
 
 ### Basic Order with Discount
 ```python
@@ -73,7 +73,7 @@ processor = OrderProcessor(
 processor.process_order(order)
 ```
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Core Models
 - **MenuItem**: Represents items on the restaurant menu
