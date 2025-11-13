@@ -1,6 +1,4 @@
 # Restaurant Order System - Creational Design Patterns
-
-**Author:** Drumea Vasile  
 **Course:** TMPS - Laboratory Work #2
 
 ---
