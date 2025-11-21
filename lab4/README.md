@@ -128,36 +128,6 @@ result = pricing.apply_pricing(order)
 
 ---
 
-## Project Structure
-
-```
-lab4/
-├── client/
-│   └── main.py              # Single client demonstrating all patterns
-├── domain/
-│   └── order_manager.py     # Singleton order manager (Lab 2)
-├── factories/
-│   └── menu_factory.py      # Factory pattern (Lab 2)
-├── builder/
-│   └── order_builder.py     # Builder pattern (Lab 2)
-├── models/
-│   ├── menu_item.py         # Menu item classes
-│   └── order.py             # Order with observer support
-└── utilities/
-    ├── validation_chain.py  # Chain of Responsibility
-    ├── observers.py         # Observer pattern
-    └── pricing_strategies.py # Strategy pattern
-```
-
----
-
-## Running the Application
-
-```bash
-cd lab4
-python client/main.py
-```
-
 The client demonstrates:
 - **Chain of Responsibility**: Order validation through sequential validators
 - **Observer**: Multiple systems reacting to order status changes
